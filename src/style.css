@@ -1,1 +1,37 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.card {
+  background-color: white;
+  width: 250px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: black;
+  justify-content: space-between;
+  flex-direction: row;
+}
+h1 {
+  font-size: 42pt;
+}
+.red {
+  color: red;
+}
+.black {
+  color: black;
+}
+.reverse {
+  rotate: 180deg;
+}
+.top {
+  display: flex;
+  align-self: flex-start;
+  margin-left: 10px;
+}
+.bottom {
+  display: flex;
+  align-self: flex-end;
+  margin-right: 10px;
+}
